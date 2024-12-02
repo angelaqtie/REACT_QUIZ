@@ -18,6 +18,12 @@ export const setMessage = (val) => {
     payload: val,
   };
 };
+export const setName = (val) => {
+  return {
+    type: "NAME",
+    payload: val,
+  };
+};
 
 export const setValidate = (val) => {
   return {

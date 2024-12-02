@@ -17,6 +17,11 @@ export const StoreReducer = (state, action) => {
         ...state,
         message: action.payload,
       };
+    case "NAME":
+      return {
+        ...state,
+        name: action.payload,
+      };
 
     case "SUCCESS":
       return {
